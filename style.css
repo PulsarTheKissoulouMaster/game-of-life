@@ -1,0 +1,74 @@
+/* button container */
+
+#button-container{
+    display: flex;
+    width: min-content;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-div{
+    margin-right: 2px;
+}
+
+body{
+    background-color: sandybrown;
+}
+
+#start-btn, #stop-btn, #reset-btn{
+    width: 80px;
+    height: 30px;
+    border: 0px solid black;
+    border-radius: 8%;
+}
+
+/* Iteration count */
+
+#container-count{
+    width: fit-content;
+    padding: 2%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    border: 5px solid brown;
+    border-radius: 10%;
+}
+
+#count{
+    font-size: 30px;
+}
+
+/* table design */
+
+
+#div-table{
+    width: fit-content;
+    height: fit-content;
+    padding: 0%;
+    margin: auto;
+
+    border: 15px solid brown;
+    border-radius: 4%;
+
+    box-shadow: 15px 15px 20px;
+}
+
+.blacked{
+    background-color: black;
+}
+
+.whited{
+    background-color: white;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, tr{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
